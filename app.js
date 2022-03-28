@@ -18,7 +18,6 @@ const month = document.querySelector(".month")
 // list one
 
 
-localStorage.setItem("navbar", "mielse")
 
 function navbar(){
 
@@ -128,6 +127,7 @@ navbar()
     otmena.addEventListener('click', ()=>{
         creat_div.style.display = "none"
         main.style.height = "125vh"
+        btn_room.style = `margin-bottom:-200px`
         
     })
 
