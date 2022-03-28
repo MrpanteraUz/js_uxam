@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Exam</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+    <div class="navigation_bar">
+        <div class="return">
+            <h1 class="next">X</h1>
+        </div>
+        <div class="nav_menu">
+                    
+                <div class="nav_icons">
+                      <img  class="munuBtn" src="./images/menu.svg" alt="">
+
+                        <h2 style="margin-left: -70px;color: #222B45;">Hotelier</h2>
+                    <img src="./images/elon.svg" alt="">
+                </div>
+                 <div class="nav_user">
+                        <div class="user_img"></div>
+                        <div class="user_name">
+                            <p style="font-size: 18px; font-weight: 550; color: #222B45;">Muhammadro'zi</p>
+                            <p style="color: #555; font-size: 14px;">Администратор</p>
+                        </div>
+                        <img style="width: 35px; margin-left: 10px;" src="./images/chevron-down.svg" alt="">
+                 </div>
+        </div>
+        <div class="nav_collection">
+            <div class="nav_cards">
+                <img src="./images/dashbaorad.svg" alt="">
+                <h4>Dashboard</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/shaxmatka.svg" alt="">
+                <h4>Шахматка</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/slujiba2.svg" alt="">
+                <h4>Служба приёма</h4>
+            </div>
+            <div id="creat" class="nav_cards">
+                <img src="./images/profili.svg" alt="">
+                <h4>Профили гостей</h4>
+            </div>
+            <div id="roomb" class="nav_cards">
+                <img src="./images/roomborard.svg" alt="">
+                <h4>Roomboard</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/regstran.svg" alt="">
+                <h4>Ресторан и Бар</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/finans.svg" alt="">
+                <h4>Финансы</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/statistika.png" alt="">
+                <h4>Статистика и Отчёты</h4>
+            </div>
+            <div class="nav_cards">
+                <img src="./images/nastroyka.svg" alt="">
+                <h4>Настройка</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+            <div class="content_center">
+                <img src="./images/chashka.svg" alt="">
+                <div class="btn"><span>Registratsiya</span></div>
+            </div>
+            
+    </div>
+
+    <div class="roomboard">
+        <div class="room_one">
+            <p style="font-size: 14px; color: #222B45;" >Room-board</p>
+            <div style="display: flex; color: #222B45;"><h3 class="month" style="margin-right: 20px;">00:00:00</h3> <label for="Time"></label> <h3 class="clock">00:00:00</h3></div>
+        </div>
+        <div class="room_two">
+            <div class="box_fx">
+                <img src="./images/Layer 2.svg" alt="">
+                <p>Cтатус</p>
+            </div>
+            <div class="box_fx">
+                <img src="./images/Layer 2.svg" alt="">
+                <p>Kорпус</p>
+            </div>
+            <div class="box_fx">
+                <img src="./images/Layer 2.svg" alt="">
+                <p>Этаж</p>
+            </div>
+            <div class="box_n">
+                <img src="./images/nastroyka.svg" alt="">
+                <p>Hастройки</p>
+            </div>
+       
+        </div>
+        <div class="room_third">
+            <input placeholder="Общее количество гостей: " style="width: 30%;" class="input_room"  type="text">
+            <input placeholder="Свободные места:  " style="width: 30%;" class="input_room" type="text">
+            <input placeholder="Количество заезжающих гостей:" style="width: 30%;" class="input_room" type="text">
+        </div>
+        <div class="cards">
+            <h3 style="color: #222B45;">1й - этаж</h3>
+            <div class="cards_box">
+
+
+
+                <div class="new_card1">
+                    <div class="card_user">
+                          <div style="background: #FFD600;" class="card_img">
+                                <h4 class="user_number">301</h4>
+                          </div>
+                          <div>
+                              <h5 style="color: #FFD600;">Забронирован</h5>
+                              <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                         </div>
+                          <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                    </div>
+                    <h5>Дата и время заезда:</h5>
+                    <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+
+                
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #3A69F2;" class="card_img">
+                            359 
+                        </div>
+                        <div>
+                            <h5 style="color: #3A69F2;">Свободно</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/undov.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #50B501;" class="card_img">
+                              303
+                        </div>
+                        <div>
+                            <h5 style="color: #50B501;">Заселен</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #FFD600;" class="card_img">
+                              301
+                        </div>
+                        <div>
+                            <h5 style="color: #FFD600;">Забронирован</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: red;" class="card_img">
+                              304
+                        </div>
+                        <div>
+                            <h5 style="color: red;">Закрыто</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: red;" class="card_img">
+                              304
+                        </div>
+                        <div>
+                            <h5 style="color: red;">Закрыто</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #50B501;" class="card_img">
+                              303
+                        </div>
+                        <div>
+                            <h5 style="color: #50B501;">Заселен</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #FFD600;" class="card_img">
+                              301
+                        </div>
+                        <div>
+                            <h5 style="color: #FFD600;">Забронирован</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #3A69F2;" class="card_img">
+                            359 
+                        </div>
+                        <div>
+                            <h5 style="color: #3A69F2;">Свободно</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/undov.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #FFD600;" class="card_img">
+                              301
+                        </div>
+                        <div>
+                            <h5 style="color: #FFD600;">Забронирован</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/undov.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                  
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                          <div style="background: #FFD600;" class="card_img">
+                                301
+                          </div>
+                          <div>
+                              <h5 style="color: #FFD600;">Забронирован</h5>
+                              <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                         </div>
+                          <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                    </div>
+                    <h5>Дата и время заезда:</h5>
+                    <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #3A69F2;" class="card_img">
+                            359 
+                        </div>
+                        <div>
+                            <h5 style="color: #3A69F2;">Свободно</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/undov.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #50B501;" class="card_img">
+                              303
+                        </div>
+                        <div>
+                            <h5 style="color: #50B501;">Заселен</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: #FFD600;" class="card_img">
+                              301
+                        </div>
+                        <div>
+                            <h5 style="color: #FFD600;">Забронирован</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>
+                <div class="new_card1">
+                    <div class="card_user">
+                        <div style="background: red;" class="card_img">
+                              304
+                        </div>
+                        <div>
+                            <h5 style="color: red;">Закрыто</h5>
+                            <p style="font-size: 11px; padding: 4px;">Гости: 2</p>
+                       </div>
+                        <img style="width: 20px; height: 20px;" src="./images/galichka.svg" alt="">
+                  </div>
+                  <h5>Дата и время заезда:</h5>
+                  <p style="font-size: 11px;">19.05.2020 - 15:00</p>
+                </div>    
+            </div>
+                
+        </div>
+
+              
+        <div class="creat_div">
+            <div class="navbar_cdiv">
+                <h4>Стандарт 301</h4>
+                <span>
+                    <img src="./images/newdiv1.svg" alt="">
+                    <img src="./images/plus-square-outline 1.svg" alt="">
+                </span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Гости</th>
+                        <th>Заезд</th>
+                        <th>Bыезд</th>
+                        <th>Услуги</th>
+                        <th>Количество</th>
+                        <th style="padding-left: 10px;">Kомментарии</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BARNES FRANCIS </td>
+                        <td>19.05.2020 - 15:00</td>
+                        <td>26.05.2020 - 15:00</td>
+                        <td>Кофе-Каппучино</td>
+                        <td>12</td>
+                        <td>Перед заездом поставить в номер</td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Вода 1,5 л</td>
+                        <td>4</td>
+                        <td>гиппо-аллергеновые подушки и настроить</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Ужин</td>
+                        <td>7</td>
+                        <td>ТВ на англоязычные каналы.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Микроволновка</td>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Фруктовое ассорти</td>
+                        <td>3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Бассейн</td>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>GORDON MCALLISTER </td>
+                        <td>19.05.2020 - 15:00</td>
+                        <td>26.05.2020 - 15:00</td>
+                        <td>Кофе-Каппучино</td>
+                        <td>12</td>
+                        <td>Перед заездом поставить в номер</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Вода 1,5 л</td>
+                        <td>4</td>
+                        <td>гиппо-аллергеновые подушки и настроить</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Ужин</td>
+                        <td>7</td>
+                        <td>ТВ на англоязычные каналы.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Микроволновка</td>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Фруктовое ассорти</td>
+                        <td>3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Бассейн</td>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="zadacha">
+                <h4>Задачи</h4>
+                <span style="display: flex;">
+                    <div style="margin-right: 20px;" class="otmena">отменить</div>
+                    <div style="margin-right: 40px;" class="plus">добавить</div>
+                </span>
+            </div>
+            <div class="check">
+                <div class="check_text">
+                    <p>Генеральная уборка</p>
+                    <span>
+                        <input type="radio" name="one" id=""> <label for="">ожидании</label>
+                        <input checked type="radio" name="one" id=""> <label for="">Выполняется</label>
+                        <input type="radio" name="one" id=""> <label for="">Выполнено</label>
+                    </span>
+                </div>
+                <div class="check_text">
+                    <p>Ежедневная уборка</p>
+                    <span>
+                        <input type="radio" name="two" id=""> <label for="">ожидании</label>
+                        <input checked type="radio" name="two" id=""> <label for="">Выполняется</label>
+                        <input type="radio" name="two" id=""> <label for="">Выполнено</label>
+                    </span>
+                </div>
+                <div class="check_text">
+                    <p>Заказ в ресторан</p>
+                    <span>
+                        <input type="radio" name="thirid" id=""> <label for="">ожидании</label>
+                        <input checked type="radio" name="thirid" id=""> <label for="">Выполняется</label>
+                        <input type="radio" name="thirid" id=""> <label for="">Выполнено</label>
+                    </span>
+                </div>
+                <div class="check_text">
+                    <p>Заказ в бар</p>
+                    <span>
+                        <input type="radio" name="ones" id=""> <label for="">ожидании</label>
+                        <input checked type="radio" name="ones" id=""> <label for="">Выполняется</label>
+                        <input type="radio" name="ones" id=""> <label for="">Выполнено</label>
+                    </span>
+                </div>
+            </div>
+
+            <div class="select">
+                <p>Состояние комнаты</p>
+                    <div class="bmis"> 
+                                              
+                            <img style="padding-top: 5px;" width="20px"  src="./images/Frame 136.svg" alt="">
+                          <p>  Все готово</p>
+                        <span><img src="./images/★ - Icon.svg" alt=""></span>
+                    </div>
+            </div>
+         
+        </div>
+        <div class="btn_room">добавить</div>
+    </div>
+</main>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
